@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "briantweed\\LaravelViewFolder\\": "src/"
+            "briantweed\\LaravelInterface\\": "src/"
         }
     },
     "extra": {
@@ -24,7 +24,7 @@
                 "briantweed\\LaravelInterface\\LaravelInterfaceServiceProvider"
             ],
             "aliases": {
-                "LaravelViewFolder": "briantweed\\LaravelInterface\\Facades\\LaravelInterface"
+                "LaravelInterface": "briantweed\\LaravelInterface\\Facades\\LaravelInterface"
             }
         }
     },
