@@ -1,0 +1,33 @@
+{
+    "name": "briantweed/laravel-interface",
+    "description": "Artisan command to create interfaces",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Tweed",
+            "email": "brtweed@outlook.com"
+        }
+    ],
+    "homepage": "https://github.com/briantweed/laravel-interface",
+    "keywords": ["Laravel", "Artisan", "Command", "Interface", "LaravelInterface"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "briantweed\\LaravelViewFolder\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "briantweed\\LaravelInterface\\LaravelInterfaceServiceProvider"
+            ],
+            "aliases": {
+                "LaravelViewFolder": "briantweed\\LaravelInterface\\Facades\\LaravelInterface"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
