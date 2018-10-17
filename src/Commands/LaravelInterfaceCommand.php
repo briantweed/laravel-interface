@@ -7,7 +7,7 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 
 
-class makeInterface extends GeneratorCommand
+class LaravelInterfaceCommand extends GeneratorCommand
 {
 
     protected $name = 'make:interface';
@@ -51,4 +51,4 @@ class makeInterface extends GeneratorCommand
         ];
     }
 
-}}
+}
