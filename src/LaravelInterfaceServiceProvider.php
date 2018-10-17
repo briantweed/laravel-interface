@@ -1,6 +1,6 @@
 <?php
 
-namespace briantweed\LaravelViewFolder;
+namespace briantweed\LaravelInterface;
 
 use Illuminate\Support\ServiceProvider;
 
